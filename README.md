@@ -33,26 +33,25 @@ O objetivo é praticar os conceitos fundamentais de **CRUD (Create, Read, Update
 ## ▶️ Como Executar o Projeto
 
 1. Clone este repositório.
-   
+
 2. Acesse: http://localhost:8080/h2-console
 
-  Configuração:
+-Configuração:
+-JDBC URL: jdbc:h2:mem:testdb
+-User: sa
+-Password: (em branco)
 
-  JDBC URL: jdbc:h2:mem:testdb
-  User: sa
-  Password: (em branco)
-  
 3.Teste com Postman:
 
-  GET http://localhost:8080/hello
-  GET http://localhost:8080/clientes
-  POST http://localhost:8080/clientes (JSON body)
-    {
-    "nome": "Ana Costa",
-    "email": "ana@email.com"
-    }
-  GET http://localhost:8080/clientes/1
-  PUT http://localhost:8080/clientes/1
-  DELETE http://localhost:8080/clientes/1
+	GET http://localhost:8080/hello
+	GET http://localhost:8080/clientes
+ 	POST http://localhost:8080/clientes (JSON body)
+		{
+		"nome": "Ana Costa",
+		"email": "ana@email.com"
+		}
+	GET http://localhost:8080/clientes/1
+	PUT http://localhost:8080/clientes/1
+	DELETE http://localhost:8080/clientes/1
 
   ---
